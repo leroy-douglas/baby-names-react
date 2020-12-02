@@ -1,0 +1,39 @@
+#search-box{
+    height: 1.5rem;
+    font-size: 1.4rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    padding: 0.5rem;
+    vertical-align: center;
+}
+
+#baby-names-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    
+    margin: 0 auto;
+
+    
+}
+
+#favourites-names-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.baby-name{
+    margin: 5px 15px;
+    min-width: 70px;
+    min-height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.baby-name:hover{
+    cursor: pointer;
+}
